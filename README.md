@@ -22,6 +22,7 @@ mentioned in the former part of this sentence.
 	If not please use:  pip install -r requirements.txt
  
 Configure user's policy with full permissions to EC2 following steps:
+
 	1.	Launch the Identity and Access Management console (IAM) in AWS. 
 	
 	2.	Click Users on the navigation menu on the left of the screen. 
