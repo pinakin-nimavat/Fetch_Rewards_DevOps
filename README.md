@@ -35,7 +35,7 @@ Configure user's policy with full permissions to EC2 following steps:
 	
 	6.	Finally, review the user and permission levels, and click on the 'Create User' button. 
 	
-	7.	The next page will show your keys. These are only available once, so it its a good idea to download and save then safely in a secure location. You can use .csv file in the next step.
+	7.	The next page will show your keys. These are only available once, so its a good idea to download and save then safely in a secure location. You can use .csv file in the next step.
 
 Configure AWS credentials locally (write following commands in terminal):
 	1.	aws configure 
