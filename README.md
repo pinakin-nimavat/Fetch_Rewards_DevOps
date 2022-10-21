@@ -73,6 +73,9 @@ In order to copy file to the user from your local machine to one of the user int
 	2.	User2 : scp -i fetch-keypair.pem file_to_upload user2@ec2-x-y-z-t.compute-1.amazonaws.com:/home/user2
 	(where x,y,z,t are the generated ip address (x,y,z,t))
 	
+I have also added a deletaion script which will delete the generated keypair file from the cloud as well from the local machine. please use the code as python delete.py (in terminal). PLEASE NOTE THAT IT WILL NOT TERMINATE OR STOP THE INSTANCE. YOU HAVE TO DO THAT MANUALLY BY LOGGING INTO THE EC2 CONSOLE. 
+
+### NOTE: DO NOT FORGET TO TERMINATE / STOP THE EC2 INSTANCE FROM EC2 CONSOLE :)	
 
 ## Resources
 
